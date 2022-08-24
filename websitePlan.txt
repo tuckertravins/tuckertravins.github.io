@@ -1,0 +1,12 @@
+
+	home/about me
+		pictures of me, bio
+	resume & work experience
+		cards with pictuers and work info
+		link to download pdf of resume
+			include when it was last updated
+	work portfolio
+		link to overall github repositories
+		cards with info about each project
+	instagram
+		go to my instagram in new tab
