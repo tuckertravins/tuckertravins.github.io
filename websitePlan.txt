@@ -1,6 +1,7 @@
 
 	home/about me
 		pictures of me, bio
+		cards with different interests/activities (rowing, racing, golf, 
 	resume & work experience
 		cards with pictuers and work info
 		link to download pdf of resume
@@ -10,3 +11,5 @@
 		cards with info about each project
 	instagram
 		go to my instagram in new tab
+	linkedin
+		go there in new tab
