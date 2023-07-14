@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -15,17 +15,19 @@
       }
     }
   </script>
-</head>
-<body>
+</head> -->
+<!-- <body class="bg-slate-50 dark:bg-slate-900">
   <h1 class="text-3xl font-bold underline text-clifford">
     Hello world!
   </h1>
   <button class="bg-sky-500 hover:bg-sky-700">
     Save changes
   </button>
-  <div class="columns-3xs">
-    <div>
-        Test words
+  <div class="columns-3xs p-4">
+    <div class="rounded bg-slate-200 dark:bg-slate-800 border-slate-700 dark:border-slate-50">
+        <p class="text-slate-950 dark:text-slate-50">
+            Test
+        </p>
     </div>
     <div>
         Test words
@@ -35,4 +37,35 @@
     </div>
   </div>
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div with Title, Image, and Description</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .light-mode {
+            background-color: #F3F4F6;
+            color: #1F2937;
+        }
+
+        .dark-mode {
+            background-color: #1F2937;
+            color: #F3F4F6;
+        }
+    </style>
+</head>
+
+<body class="flex items-center justify-center h-screen light-mode dark:bg-dark-mode dark:text-white">
+    <div class="p-6 bg-white rounded-md shadow-md dark:bg-dark-mode dark:text-white text-center">
+        <h1 class="text-3xl font-bold mb-4">Title</h1>
+        <img src="path/to/image.jpg" alt="Image" class="mx-auto mb-4">
+        <p class="text-lg">Description goes here.</p>
+    </div>
+</body>
+
 </html>
